@@ -1,4 +1,12 @@
 body {
-    background: #23201f;
+    background: #1d1d1e;
     color: aliceblue;
+}
+
+label {
+    display: block;
+}
+
+iframe {
+    display: block;
 }
