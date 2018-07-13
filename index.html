@@ -10,12 +10,15 @@
     <h1 id="title">Hey Dummy Take This Survey</h1>
     <p id="description">This is a survey about things</p>
     <form id="survey-form">
-        <p>*Name</p> <input id="name" type="text" placeholder="Dominic Toretto" required>
-        <p>*Email</p> <input type="email" placeholder="Need4Speed@TorettoMotors.com" required>
-        <p>Age</p> <input id="number" type="number" min="1" max="100" placeholder="How many trips around the racetrack?">
+        <label id="name-label">*Name</label> 
+        <input id="name" type="text" placeholder="Dominic Toretto" required>
+        <label id="email-label">*Email</label> 
+        <input id="email" type="email" placeholder="Need4Speed@TorettoMotors.com" required>
+        <label id="number-label">Age</label> 
+        <input id="number" type="number" min="1" max="100" placeholder="How many trips around the racetrack?">
         
         <p>Which Fast and Furious movie is your favorite?</p>
-        <select name="movies">
+        <select id="dropdown" name="movies">
             <option value="The Fast and The Furious">The Fast and The Furious</option>
             <option value="2 Fast 2 Furious">2 Fast 2 Furious</option>
             <option value="Tokyo Drift">Tokyo Drift</option>
@@ -28,20 +31,20 @@
         
         <p>Which Fast and Furious character is your favorite?</p>
         
-            <label><input type="radio" name="character">Dom</label>
-            <label><input type="radio" name="character">Brian</label>
-            <label><input type="radio" name="character">Letty<label>
-            <label><input type="radio" name="character">Mia</label>
-            <label><input type="radio" name="character">Han</label>
-            <label><input type="radio" name="character">Other</label>
+            <label><input value="Dom" type="radio" name="character">Dom</label>
+            <label><input value="Brian" type="radio" name="character">Brian</label>
+            <label><input value="Letty" type="radio" name="character">Letty<label>
+            <label><input value="Mia" type="radio" name="character">Mia</label>
+            <label><input value="Han" type="radio" name="character">Han</label>
+            <label><input value="Other" type="radio" name="character">Other</label>
             <br>
                 
         <p>What Fast and Furious items have you purchased?</p>
                 
-            <label for="Movie Ticket(s)"><input type="checkbox" name="purchases">Movie Ticket(s)</label>
-            <label for="DVD(s)"><input type="checkbox" name="purchases">DVD(s)</label>
-            <label for="Blue Ray(s)"><input type="checkbox" name="purchases">Blue Ray(s)</label>
-            <label for="Apparel"><input type="checkbox" name="purchases">Apparel</label>
+            <label for="Movie Ticket(s)"><input value="1" type="checkbox" name="purchases">Movie Ticket(s)</label>
+            <label for="DVD(s)"><input value="2" type="checkbox" name="purchases">DVD(s)</label>
+            <label for="Blue Ray(s)"><input value="3" type="checkbox" name="purchases">Blue Ray(s)</label>
+            <label for="Apparel"><input value="4" type="checkbox" name="purchases">Apparel</label>
             
             <br>
         <p>Why do you think the Fast and Furious franchise has been so successful?</p>
@@ -50,7 +53,7 @@
                 
             <br>
         
-            <button type="submit">Submit</button>
+            <button id="submit" type="submit">Submit</button>
             <br>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/RgKAFK5djSk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
     </form>
