@@ -1,6 +1,26 @@
 body {
-    background: #1d1d1e;
+    background: black;
     color: aliceblue;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center;
+    grid-row-gap: 5px;
+    padding: 5px;
+}
+
+form {
+   background-color: #1d1d1e;
+    margin: 20px;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: sans-serif;
+    font-style: italic;
+    text-transform: uppercase;
+    font-weight: 900;
 }
 
 label {
