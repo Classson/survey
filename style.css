@@ -1,3 +1,10 @@
+
+@font-face {
+    font-family: "AntiqueOliveBold";
+    src: url("fonts/AntiqueOliveBold.ttf");
+    font-weight: bold;
+}
+
 body {
     background: black;
     color: aliceblue;
@@ -25,8 +32,7 @@ form {
 
 h1 {
     font-size: 40px;
-    font-family: sans-serif;
-    font-style: italic;
+    font-family: 'AntiqueOliveBold';
     text-transform: uppercase;
     font-weight: 900;
     text-align: center;
