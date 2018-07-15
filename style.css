@@ -7,6 +7,7 @@ body {
     justify-content: center;
     grid-row-gap: 5px;
     padding: 5px;
+    margin: 15px;
 }
 
 form {
@@ -16,10 +17,10 @@ form {
 }
 
 #header {
-        color: black;
+    color: black;
     background-image: url("https://png.pngtree.com/thumb_back/fw800/back_pic/02/66/46/78578aed9e69da8.jpg");
     background-repeat: no-repeat;
-    width: 100%;
+    background-size: cover;
 }
 
 h1 {
@@ -29,6 +30,11 @@ h1 {
     text-transform: uppercase;
     font-weight: 900;
     text-align: center;
+}
+
+p {
+    margin: 5px;
+    padding: 10px;
 }
 
 label {
@@ -47,9 +53,20 @@ input:invalid {
     border: 2px solid red;
 }
 
+.box{
+    width: 200px;
+}
+
+iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+}
 
 #footer {
+    height: 175px;
     background-image: url("https://png.pngtree.com/thumb_back/fw800/back_pic/02/66/46/78578aed9e69da8.jpg");
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
 }
