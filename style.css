@@ -15,12 +15,20 @@ form {
     padding: 10px;
 }
 
+#header {
+        color: black;
+    background-image: url("https://png.pngtree.com/thumb_back/fw800/back_pic/02/66/46/78578aed9e69da8.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
 h1 {
     font-size: 40px;
     font-family: sans-serif;
     font-style: italic;
     text-transform: uppercase;
     font-weight: 900;
+    text-align: center;
 }
 
 label {
@@ -37,4 +45,11 @@ input:valid {
 
 input:invalid {
     border: 2px solid red;
+}
+
+
+#footer {
+    background-image: url("https://png.pngtree.com/thumb_back/fw800/back_pic/02/66/46/78578aed9e69da8.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
 }
