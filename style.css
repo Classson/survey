@@ -40,7 +40,12 @@ form {
 }
 
 .form-group {
-    padding: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.dropdown-q {
+    
 }
 
 
@@ -55,8 +60,6 @@ h1 {
 
 p {
     font-family: sans-serif;
-    margin: 5px;
-    padding: 5px;
 }
 
 label {
