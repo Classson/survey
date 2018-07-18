@@ -1,10 +1,4 @@
 
-@font-face {
-    font-family: "AntiqueOliveBold";
-    src: url("fonts/AntiqueOliveBold.ttf");
-    font-weight: bold;
-}
-
 body {
     background: black;
     color: aliceblue;
@@ -14,6 +8,7 @@ body {
     justify-content: center;
     grid-row-gap: 5px;
     margin: 0px;
+    font-family: sans-serif;
 }
 
 form {
@@ -31,9 +26,22 @@ form {
     margin-bottom: 20px;
 }
 
+.characters {
+    max-width: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.products {
+    max-width: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
 h1 {
     font-size: 40px;
-    font-family: "AntiqueOliveBold", sans-serif;
+    font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
     font-style: italic;
     font-weight: 900;
@@ -41,6 +49,7 @@ h1 {
 }
 
 p {
+    font-family: sans-serif;
     margin: 5px;
     padding: 5px;
 }
