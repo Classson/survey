@@ -13,13 +13,18 @@
         <p id="description">This is a survey about the greatest movie franchise of all time</p>
     </div>
     <form>
-        <label id="name-label">*Name</label> 
+        <div class="form-group">
+            <label id="name-label">*Name</label> 
             <input id="name" class="box" type="text" placeholder="Dominic Toretto" required>
-        <label id="email-label">*Email</label> 
-        <input id="email" class="box" type="email" placeholder="Need4Speed@TorettoMotors.com" required>
-        <label id="number-label">Age</label> 
-        <input id="number" class="box" type="number" min="1" max="100" placeholder="Just a number">
-        
+        </div>
+        <div class="form-group">
+            <label id="email-label">*Email</label> 
+            <input id="email" class="box" type="email" placeholder="Need4Speed@TorettoMotors.com" required>
+        </div>
+        <div class="form-group">
+            <label id="number-label">Age</label> 
+            <input id="number" class="box" type="number" min="1" max="100" placeholder="Just a number">
+        </div>
         <p>Which Fast and Furious movie is your favorite?</p>
         <select id="dropdown" name="movies" class="box">
             <option value="The Fast and The Furious">The Fast and The Furious</option>
@@ -33,7 +38,7 @@
         </select>
         <p>Which Fast and Furious character is your favorite?</p>
         
-        <div class=characters>
+        <div class="characters">
             <label id="char1"><input value="Dom" type="radio" name="character">Dom</label>
             <label id="char2"><input value="Brian" type="radio" name="character">Brian</label>
             <label id="char3"><input value="Letty" type="radio" name="character">Letty</label>
@@ -45,7 +50,7 @@
                 
         <p>What Fast and Furious items have you purchased?</p>
         
-        <div class=products>
+        <div class="products">
             <label for="Movie Ticket(s)"><input value="1" type="checkbox" name="purchases">Movie Ticket(s)</label>
             <label for="DVD(s)"><input value="2" type="checkbox" name="purchases">DVD(s)</label>
             <label for="Blue Ray(s)"><input value="3" type="checkbox" name="purchases">Blue Ray(s)</label>

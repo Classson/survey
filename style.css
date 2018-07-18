@@ -39,6 +39,11 @@ form {
     grid-template-rows: 1fr 1fr;
 }
 
+.form-group {
+    padding: 10px;
+}
+
+
 h1 {
     font-size: 40px;
     font-family: 'Open Sans', sans-serif;
@@ -57,6 +62,18 @@ p {
 label {
     display: block;
     padding: 5px;
+}
+
+#name-label {
+    display: inline-block;
+}
+
+#email-label {
+    display: inline-block;
+}
+
+#number-label {
+    display: inline-block;
 }
 
 iframe {
