@@ -44,8 +44,12 @@ form {
     padding-top: 10px;
 }
 
-.dropdown-q {
-    
+#dropdown.box {
+    margin-bottom: 20px;
+}
+
+p.dropdown-q {
+    margin-bottom: 5px;
 }
 
 
@@ -60,6 +64,8 @@ h1 {
 
 p {
     font-family: sans-serif;
+    margin-top: 20px;
+    margin-bottom: 5px;
 }
 
 label {
