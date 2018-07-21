@@ -59,7 +59,6 @@ p.dropdown-q {
 h1 {
     font-size: 40px;
     font-weight: 900;
-    width: 100vw;
     font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
     font-style: italic;
@@ -130,5 +129,9 @@ iframe {
   }
     textarea {
         width: 65vw;
+    }
+    
+    h1{
+        width: 90vw;
     }
 }
