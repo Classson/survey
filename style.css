@@ -128,4 +128,7 @@ iframe {
   form {
     width: 75vw;
   }
+    textarea {
+        width: 65vw;
+    }
 }
