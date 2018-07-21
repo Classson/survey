@@ -15,8 +15,8 @@ body {
 
 form {
    background-color: #1d1d1e;
-    margin: 20px;
-    padding: 30px;
+   margin: 20px;
+   padding: 30px;
 }
 
 #header {
@@ -24,8 +24,9 @@ form {
     background-image: url("https://png.pngtree.com/thumb_back/fw800/back_pic/02/66/46/78578aed9e69da8.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: 0px;
-    margin-bottom: 20px;
+    max-width: 100%;
+    display: block;
+    height: auto;
 }
 
 .characters {
@@ -57,10 +58,11 @@ p.dropdown-q {
 
 h1 {
     font-size: 40px;
+    font-weight: 900;
+    width: 100vw;
     font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
     font-style: italic;
-    font-weight: 900;
     text-align: center;
 }
 
@@ -71,7 +73,8 @@ p {
 }
 
 #description {
-    margin-left: 15px;
+  margin-left: 15px;
+  width: 70vw;
 }
 
 label {
@@ -119,4 +122,10 @@ iframe {
     background-image: url("https://png.pngtree.com/thumb_back/fw800/back_pic/02/66/46/78578aed9e69da8.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+@media (max-width: 450px) {
+  form {
+    width: 75vw;
+  }
 }
