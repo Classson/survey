@@ -17,6 +17,9 @@ form {
    background-color: #1d1d1e;
    margin: 20px;
    padding: 30px;
+   max-width: 450px;
+   margin-left: auto;
+   margin-right: auto;   
 }
 
 #header {
